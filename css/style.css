@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 390px;
+  margin: 0 auto;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+#hero {
+  background: url("/img/stom.jpg") no-repeat center/cover;
+  overflow: hidden;
+}
+#hero .hero {
+  padding: 30px 0;
+}
+#hero .hero--fon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--fon img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40%;
+}
+#hero .hero p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(3, 3, 3);
+  letter-spacing: 4px;
+  padding: 20px 0;
+}
+#hero .hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(3, 3, 3);
+  letter-spacing: 4px;
+}
+#hero .hero h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(3, 3, 3);
+  letter-spacing: 4px;
+  padding: 20px 0;
+}
+#hero .swiper {
+  width: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#hero .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+}
+#hero .swiper-slide img {
+  display: block;
+  width: 250px;
+}
+#hero .hero--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--text h1 {
+  margin: 0 20px;
+  color: rgba(98, 81, 81, 0.58);
+}
+#hero .fa-arrow-left {
+  color: red;
+}
+#hero .hero--title {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #71e796, #8abed9);
+  margin-left: -20px;
+  margin-top: 50px;
+}
+#hero .hero--title h2 {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+#hero .hero--title h1 {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  line-height: 40px;
+}
+#hero .hero--icon a button {
+  width: 150px;
+  height: 50px;
+  margin: 10px 95px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #00A400;
+  background: rgba(0, 164, 0, 0.25);
+  transition: 0.3s;
+  margin-left: 33%;
+}
+#hero .hero--icon a button:hover {
+  transform: scale(1.1);
+}
+#hero .hero--icon .fa-whatsapp {
+  padding: 0 10px;
+  font-size: 18px;
+}
+#hero .hero--icon--btn button {
+  color: crimson;
+  border-radius: 5px;
+  background: rgba(220, 20, 60, 0.25);
+}
+#hero .hero--icon .fa-location-dot {
+  margin-left: 15px;
+}
+#hero .hero--bottom {
+  width: 500px;
+  height: 150px;
+  background: #030303;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+#hero .hero--bottom__text {
+  padding: 10px 0;
+}
+#hero .hero--bottom__text h1 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+}
+#hero .hero--bottom__text h2 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+}
+#hero .hero--bottom__text--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--bottom__text--icon a {
+  font-size: 20px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  animation: a 2s alternate linear;
+}
+@keyframes a {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

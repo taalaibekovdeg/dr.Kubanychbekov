@@ -1,0 +1,74 @@
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  #hero .hero--fon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    width: 100px;
+  }
+  .swiper {
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 150px;
+  }
+  #hero .hero--title {
+    width: 187px;
+    padding: 22px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #71e796, #8abed9);
+    margin-left: 28px;
+    margin-top: 50px;
+  }
+  #hero .hero--title h2 {
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    line-height: 40px;
+    margin-left: -9px;
+  }
+
+  .hero--icon {
+    padding: 20px 0;
+  }
+  #hero .hero--icon a button {
+    width: 150px;
+    height: 50px;
+    margin: 10px 95px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #00A400;
+    background: rgba(0, 164, 0, 0.25);
+    transition: 0.3s;
+    margin-left: 23%;
+  }
+
+  #hero .hero--bottom {
+    width: 318px;
+    height: 150px;
+    background: #030303;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -16px;
+    margin-top: 30px;
+  }
+}
+
